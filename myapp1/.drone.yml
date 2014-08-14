@@ -1,0 +1,6 @@
+image: openjdk7
+env 
+  -/var/cache/drone
+  -/usr/lib/jvm/java-1.7.0-openjdk
+script
+  -ant
